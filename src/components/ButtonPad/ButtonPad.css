@@ -1,0 +1,52 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(9, 40px); /* 9 colunas, cada célula com 20px */
+  gap: 2px; /* Espaçamento entre as células */
+  justify-content: center; /* Centraliza a grade */
+  margin: auto;
+}
+
+.grid-item {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+.grid-item.black {
+  background-color: black;
+}
+
+.saved-matrices {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row; /* Exibe as matrizes lado a lado */
+  gap: 20px; /* Espaçamento entre as matrizes */
+  flex-wrap: wrap; /* Permite quebrar para a próxima linha se o espaço não for suficiente */
+}
+
+.matrix-display {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: 1px solid #333; /* Adiciona um contorno para destacar cada matriz */
+  padding: 10px; /* Adiciona espaço interno para separação visual */
+}
+
+
+.matrix-row {
+  display: flex;
+  gap: 2px;
+}
+
+.matrix-cell {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border: 1px solid #333;
+  text-align: center;
+}
