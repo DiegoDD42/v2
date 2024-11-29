@@ -28,7 +28,7 @@ function App() {
                 <Nav.Link href="/best-route-finder">Encontrador de Melhor Rota</Nav.Link>
                 <Nav.Link href="/routes-builder">Montador de Rotas</Nav.Link>
                 <Nav.Link href="/station-matrix">Matriz de Estações</Nav.Link>
-                <Nav.Link href="/tree">Arvore de Estações</Nav.Link>
+                <Nav.Link href="/station-tree">Arvore de Estações</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

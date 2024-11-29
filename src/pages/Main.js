@@ -12,15 +12,15 @@ const Main = () => {
     <div>
       {/* Definição das Rotas */}
       <Routes>
-        <Route
-            path="*"
-            element={<Navigate to="/" replace />}
-        />
         <Route exact path="/" Component={Home} />
         <Route exact path="/best-route-finder" Component={BestRouteFinder} />
         <Route exact path="/routes-builder" Component={RoutesBuilder} />
         <Route exact path="/station-matrix" Component={StationMatrix} />
         <Route exact path="/station-tree" Component={StationTree} />
+        <Route
+            path="*"
+            element={<Navigate to="/" replace />}
+        />
       </Routes>
     </div>
   );
