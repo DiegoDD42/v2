@@ -3,7 +3,7 @@ import Home from "./Home";
 import BestRouteFinder from "./BestRouteFinder";
 import RoutesBuilder from "./RoutesBuilder";
 import StationMatrix from "./StationMatrix";
-import Tree from "./tree";
+import StationTree from "./StationTree";
 
 
 const Main = () => {
@@ -20,7 +20,7 @@ const Main = () => {
         <Route exact path="/best-route-finder" Component={BestRouteFinder} />
         <Route exact path="/routes-builder" Component={RoutesBuilder} />
         <Route exact path="/station-matrix" Component={StationMatrix} />
-        <Route exact path="/tree" Component={Tree} />
+        <Route exact path="/station-tree" Component={StationTree} />
       </Routes>
     </div>
   );
